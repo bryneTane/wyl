@@ -128,10 +128,10 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
       ]),
-      floatingActionButton: FloatingActionButton(
+      floatingActionButton: const FloatingActionButton(
         onPressed: null,
         tooltip: 'Increment',
-        child: const Icon(Icons.music_note_rounded),
+        child: Icon(Icons.music_note_rounded),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
